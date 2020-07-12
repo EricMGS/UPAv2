@@ -1,0 +1,32 @@
+#content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 0 0 ;
+    overflow-y: scroll;
+}
+#content h2 {
+    font-size: 30px;
+}
+
+#content table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+#content table td, #content table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#content table thead{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgreen;
+    color: white;
+}
+#content table tr {
+    padding: 10px 20px;
+}
+#content tr:nth-child(even){background-color: white;}
+#content tr:hover {background-color: #ddd;}

@@ -1,0 +1,22 @@
+#content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0 100px 0 ;
+}
+#content h2 {
+    font-size: 30px;
+}
+
+#frmAlterar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: lightgreen;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+#frmAlterar input, #frmAlterar select {
+    margin-bottom: 10px;
+}
